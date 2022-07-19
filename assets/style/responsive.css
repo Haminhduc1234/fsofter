@@ -1,0 +1,114 @@
+@media screen and (min-width: 376px) and (max-width: 1024px) {
+    .btn {
+        background-color: var(--primaryColor);
+        color: white;
+        border-radius: 5px;
+        display: block;
+        float: right;
+    }
+    .list__nav {
+        display: none;
+    }
+    .maxScreen {
+        background-color: #2a2929;
+    }
+
+    .protfolio {
+        width: 30%;
+        height: 370px;
+        background-color: white;
+        border-radius: 20px;
+        margin: 20px 20px;
+        /* padding: 10px 10px 10px 10px; */
+
+    }
+    .teams {
+        flex-direction: column;
+    }
+    .social__media__footer {
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width: 502px) {
+    .btn {
+        background-color: var(--primaryColor);
+        color: white;
+        border-radius: 5px;
+        padding: 10px 15px;
+        display: block;
+        float: right;
+    }
+    .TellMeMore {
+        background-color: var(--primaryColor);
+        color: white;
+        padding: 5px 20px;
+        border-radius: 7px;
+        font-weight: bold;
+        transition: transform .4s;
+        font-size: 15px;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .services {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0px 80px;
+    }
+    .service {
+        width: 80%;
+        height: 370px;
+        background-color: white;
+        border-radius: 20px;
+        margin: 20px 20px;
+        padding: 10px 10px 30px 10px;
+    }
+    .protfolio {
+        width: 80%;
+        height: 370px;
+        background-color: white;
+        border-radius: 20px;
+        margin: 20px 20px;
+        /* padding: 10px 10px 10px 10px; */
+
+    }
+    .main {
+        width: 100%;
+        height: 500px;
+        background-image: url(../header-bg.jpg);
+        background-position: center;
+        position: relative;
+    }
+    .list__nav {
+        display: none;
+    }
+    .maxScreen {
+        background-color: #2a2929;
+    }
+
+    .protfolio {
+        height: 270px;
+        width: 100%;
+    }
+    .teams {
+        flex-direction: column;
+        width: 100%;
+    }
+    .social__media__footer {
+        flex-direction: column;
+    }
+
+
+
+
+}
